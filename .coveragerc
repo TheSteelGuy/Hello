@@ -6,6 +6,5 @@ source =
 [report]
 show_missing = True
 
-omit =
-tests/*
-
+exclude_lines =
+def __repr__
