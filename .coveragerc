@@ -1,10 +1,12 @@
 [run]
-source =
-    app/
-    tests/
+omit =
+    venv/*
+    */python?.?/*
+    */site-packages/nose/*
 
 [report]
-show_missing = True
-
-exclude_lines =
-def __repr__
+omit =
+    app/error.py
+    venv/*
+    */python?.?/*
+    */site-packages/nose/*
