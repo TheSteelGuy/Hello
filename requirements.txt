@@ -18,7 +18,7 @@ enum34==1.1.6
 Flask==0.12.2
 Flask-API==1.0
 Flask-Bootstrap==3.3.7.1
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 Flask-JWT-Extended==3.7.2
 Flask-Login==0.4.1
 Flask-Mail==0.9.1
